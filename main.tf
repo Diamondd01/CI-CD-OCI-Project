@@ -20,5 +20,4 @@ resource "oci_core_subnet" "CICD_VCN_Subnet" {
     availability_domain =var.availability_domain
     compartment_id = var.compartment_id
     shape = var.shape
-    subnet_id = var.subnet_id
  }
