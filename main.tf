@@ -9,7 +9,7 @@ resource "oci_core_virtual_network" "CI-CD-VCN"{
     cidr_block=var.vcn_cidr_block
 }
 # define a subnet within vcn 
-resource "oci_core_subnet" "public subnet-CI-CD-VCN" { 
+resource "oci_core_subnet" "CICD_VCN_Subnet" { 
     cidr_block = var.subnet_cidr_block
     compartment_id = var.compartment_id
     vcn_id = var.vcn_id
