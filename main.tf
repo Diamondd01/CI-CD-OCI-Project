@@ -13,7 +13,7 @@ resource "oci_core_subnet" "public subnet-CI-CD-VCN" {
     cidr_block = var.subnet_cidr_block
     compartment_id = var.compartment_id
     vcn_id = var.vcn_id
-    display_name =  "public subnet-CI-CD-VCN"
+    subnet_id = var.subnet_id
 }    
 # define a compute instance
  resource "oci_core_instance" "instance-CICD-OCI"{
