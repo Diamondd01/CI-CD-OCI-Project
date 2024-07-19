@@ -23,6 +23,6 @@ resource "oci_core_virtual_subnet" "public subnet-CI-CD-VCN" {
     subnet_id = var.subnet_id
 # metadata for the instance 
     metadata {
-        ssh_authorized_keys: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCx+V+Z0D/eaxICN3heR3f3OyFTkQ2NaUTlMtY3cv7MA"
+        ssh_authorized_keys=  "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCx+V+Z0D/eaxICN3heR3f3OyFTkQ2NaUTlMtY3cv7MA"
     }
  }
