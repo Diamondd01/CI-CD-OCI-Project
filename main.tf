@@ -6,7 +6,7 @@ provider "oci" {
 }
 # Define VCN
 resource "oci_core_virtual_network" "CI-CD-VCN"{ 
-    cidr_block: var.vcn_cidr_block
+    cidr_block=var.vcn_cidr_block
 }
 # define a subnet within vcn 
 resource "oci_core_virtual_subnet" "public subnet-CI-CD-VCN" { 
