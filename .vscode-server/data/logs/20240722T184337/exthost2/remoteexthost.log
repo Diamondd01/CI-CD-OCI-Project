@@ -1,0 +1,23 @@
+2024-07-22 18:43:53.188 [info] Extension host with pid 146487 started
+2024-07-22 18:43:53.197 [info] Lock '/home/opc/.vscode-server/data/User/workspaceStorage/08f2161aca2107f937a8237c9657dd1d/vscode.lock': Lock acquired.
+2024-07-22 18:43:53.677 [info] Eager extensions activated
+2024-07-22 18:43:54.636 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-22 18:43:54.637 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-07-22 18:43:54.638 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-22 18:43:55.077 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-07-22 18:43:55.078 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-07-22 18:43:56.169 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-22 18:43:56.169 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-22 18:43:56.170 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-07-22 18:43:56.170 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-22 18:47:26.419 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-07-22 18:51:41.993 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-07-22 18:59:56.787 [error] Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-07-22 19:12:54.061 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-07-22 19:12:54.061 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-07-22 19:12:54.686 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-07-22 20:29:23.353 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-07-22 20:34:54.078 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-07-22 20:34:54.078 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugResolve:pwa-chrome'
+2024-07-22 20:34:55.013 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
