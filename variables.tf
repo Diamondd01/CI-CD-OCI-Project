@@ -11,7 +11,7 @@ variable "region"{
 variable "compartment_id"{
     description="ocid1.compartment.oc1..aaaaaaaaigecoxnads2k7fooq2rqzehiss5up6wgyqs46i73wvqz7qxuzujq"
 }
-variable "availability_domain"{
+variable "instance_availability_domain"{
     description="HhPD:US-ASHBURN-1.AD-1"
 }
 variable "shape"{
@@ -23,3 +23,7 @@ variable "vcn_cidr_block"{
 variable "vcn_id"{
     description="ocid1.vcn.oc1.iad.amaaaaaajtkboyqa74szdvgnfl2os7rx54oakv3bbyxmnna52qlosg7uwrgq"
 }
+variable "subnet_cidr_block"{
+    description="10.0.0.0/24"
+}
+

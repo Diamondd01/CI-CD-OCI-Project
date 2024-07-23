@@ -5,13 +5,20 @@ provider "oci" {
     region = var.region
 }
 # Define VCN
-resource "oci_core_virtual_network" "CI-CD-VCN"{ 
+resource "oci_core_vcn" "ci_cd_vcn"{ 
     cidr_block=var.vcn_cidr_block
     compartment_id= var.compartment_id
-}   
+}  
+#define subnet
+resource "oci_core_subnet" "cicd_vcn_subnet" {
+    #Required
+    cidr_block = var.subnet_cidr_block
+    compartment_id = var.compartment_id
+    vcn_id = oci_core_vcn.ci_cd_vcn.id
+}
 # define a compute instance
  resource "oci_core_instance" "cicd_instance"{
-    availability_domain =var.availability_domain
+    availability_domain =var.instance_availability_domain
     compartment_id = var.compartment_id
     shape = var.shape
     shape_config{
