@@ -10,7 +10,7 @@ resource "oci_core_virtual_network" "CI-CD-VCN"{
     compartment_id= var.compartment_id
 }   
 # define a compute instance
- resource "oci_core_instance" "instance-CICD-Project1"{
+ resource "oci_core_instance" "instance-cicd-project1"{
     availability_domain =var.availability_domain
     compartment_id = var.compartment_id
     shape = var.shape
