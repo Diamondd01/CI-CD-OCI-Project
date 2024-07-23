@@ -16,7 +16,7 @@ resource "oci_core_subnet" "CICD_VCN_Subnet" {
     vcn_id = var.vcn_id
 }    
 # define a compute instance
- resource "oci_core_instance" "instance-CICD-OCI"{
+ resource "oci_core_instance" "instance-CICD-Project1"{
     availability_domain =var.availability_domain
     compartment_id = var.compartment_id
     shape = var.shape
