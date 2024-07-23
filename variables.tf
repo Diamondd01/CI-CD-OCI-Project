@@ -26,3 +26,6 @@ variable "subnet_cidr_block"{
 variable "vcn_id"{
     description="ocid1.vcn.oc1.iad.amaaaaaajtkboyqa74szdvgnfl2os7rx54oakv3bbyxmnna52qlosg7uwrgq"
 }
+variable "subnet_id"{
+    description="ocid1.compartment.oc1..aaaaaaaaigecoxnads2k7fooq2rqzehiss5up6wgyqs46i73wvqz7qxuzujq"
+}
