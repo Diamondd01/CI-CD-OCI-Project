@@ -20,9 +20,9 @@ variable "shape"{
 variable "vcn_cidr_block"{
     description="10.0.0.0/16"
 }
-variable "subnet_cidr_block"{
-    description="10.0.2.0/24"
-}
 variable "vcn_id"{
     description="ocid1.vcn.oc1.iad.amaaaaaajtkboyqa74szdvgnfl2os7rx54oakv3bbyxmnna52qlosg7uwrgq"
+}
+variable "ssh_public_key_path"{
+    description="C:\\Users\\dijewell\\Downloads\\ssh-key-2024-07-23.key (1).pub"
 }
