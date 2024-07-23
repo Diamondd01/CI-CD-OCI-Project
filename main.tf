@@ -33,6 +33,7 @@ resource "oci_core_instance" "cicd_instance" {
         assign_public_ip = true
         subnet_id=oci_core_subnet.cicd_vcn_subnet.id
         display_name="CICD_VCN_Subnet"
+        ssh_authorized_keys=file("C:\\Users\\dijewell\\Downloads\\ssh-key-2024-07-23.key")
 
     }
 }
