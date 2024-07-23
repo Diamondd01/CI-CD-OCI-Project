@@ -13,6 +13,7 @@ variable "compartment_id"{
 }
 variable "instance_availability_domain"{
     description="HhPD:US-ASHBURN-1.AD-1"
+    type = string
 }
 variable "shape"{
     description= "VM.Standard.E4.Flex"
@@ -26,4 +27,5 @@ variable "vcn_id"{
 variable "subnet_cidr_block"{
     description="10.0.0.0/24"
 }
+
 
