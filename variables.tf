@@ -11,7 +11,7 @@ variable "region"{
 variable "compartment_id"{
     description="ocid1.compartment.oc1..aaaaaaaaigecoxnads2k7fooq2rqzehiss5up6wgyqs46i73wvqz7qxuzujq"
 }
-variable "instance_availability_domain"{
+variable "availability_domain"{
     description="HhPD:US-ASHBURN-1.AD-1"
 }
 variable "shape"{
