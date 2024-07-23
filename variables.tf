@@ -24,10 +24,10 @@ variable "vcn_id"{
     description="ocid1.vcn.oc1.iad.amaaaaaajtkboyqa74szdvgnfl2os7rx54oakv3bbyxmnna52qlosg7uwrgq"
 }
 variable "instance_shape_config_memory_in_gbs"{
-    description= 13
+    description= "13"
 }
 variable "instance_shape_config_ocpu"{
-    description= 1
+    description= "1"
 }
 variable "subnet_id"{
     description="ocid1.subnet.oc1.iad.aaaaaaaampdltxvfftn2s7ljyxv7f6rxs7lc2rktqq7uglog37d2yqgyqfhq"
