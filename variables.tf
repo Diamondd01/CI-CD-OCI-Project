@@ -2,7 +2,7 @@ variable "tenancy_ocid" {
   description = "ocid1.tenancy.oc1..aaaaaaaa52c7qr7y3rm5qveso7y4jn3evpgk6bss6nndfzoqum3tftibwuhq"
 }
 variable "private_key_path"{
-    description ="C:\Users\dijewell\Downloads\ssh-key-2024-07-23.key"
+    description ="C:\\Users\\dijewell\\Downloads\\ssh-key-2024-07-23.key"
 }
 variable "region"{
     description= "us-auburn-1"
