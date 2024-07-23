@@ -15,4 +15,12 @@ resource "oci_core_virtual_network" "CI-CD-VCN"{
     compartment_id = var.compartment_id
     shape = var.shape
     display_name = "instance-CICD-Project1"
+    shape_config{
+        memory_in_gbs = 13
+        ocpus = 1
+    }
+    source_details{
+        source_id ="ocid1.image.oc1.iad.aaaaaaaa6uqjfy73o5jvx47jvuwhpczh4euram4nxy37744agjoymonbhtrq"
+        source_type ="image"
+    }
  }
