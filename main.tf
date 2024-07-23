@@ -25,6 +25,6 @@ resource "oci_core_virtual_network" "CI-CD-VCN"{
     create_vnic_details{
         assign_public_ip = true
         display_name="CICD_VCN_Subnet"
-        hostname="instance-cicd-project1"
+
     }
  }
