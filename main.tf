@@ -11,7 +11,7 @@ resource "oci_core_virtual_network" "CI-CD-VCN"{
 }   
 # define a compute instance
  resource "oci_core_instance" "cicd_instance"{
-    availability_domain =var.instance_availability_domain
+    availability_domain =var.availability_domain
     compartment_id = var.compartment_id
     shape = var.shape
     shape_config{

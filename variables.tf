@@ -11,7 +11,7 @@ variable "region"{
 variable "compartment_id"{
     description="ocid1.compartment.oc1..aaaaaaaaigecoxnads2k7fooq2rqzehiss5up6wgyqs46i73wvqz7qxuzujq"
 }
-variable "instance_availability_domain"{
+variable "availability_domain"{
     description="HhPD:US-ASHBURN-1.AD-1"
 }
 variable "shape"{
@@ -25,9 +25,11 @@ variable "vcn_id"{
 }
 variable "instance_shape_config_memory_in_gbs"{
     description= "13"
+    type = number
 }
 variable "instance_shape_config_ocpu"{
     description= "1"
+    type = number
 }
 variable "subnet_id"{
     description="ocid1.subnet.oc1.iad.aaaaaaaampdltxvfftn2s7ljyxv7f6rxs7lc2rktqq7uglog37d2yqgyqfhq"
