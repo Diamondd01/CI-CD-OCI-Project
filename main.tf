@@ -11,7 +11,9 @@ resource "oci_core_virtual_network" "CI-CD-VCN"{
 }
 # define a subnet within vcn 
 resource "oci_core_subnet" "CICD_VCN_Subnet" { 
-   subnet_id = var.subnet_id
+    cidr_block = var.subnet_cidr_block
+    compartment_id = var.compartment_id
+    vcn_id = var.vcn_id
 }    
 # define a compute instance
  resource "oci_core_instance" "instance-CICD-Project1"{
@@ -19,4 +21,3 @@ resource "oci_core_subnet" "CICD_VCN_Subnet" {
     compartment_id = var.compartment_id
     shape = var.shape
  }
-ci_core_subnet.test_subnet.id
