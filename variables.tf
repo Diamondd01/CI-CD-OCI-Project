@@ -12,7 +12,7 @@ variable "compartment_id"{
     description="ocid1.compartment.oc1..aaaaaaaaigecoxnads2k7fooq2rqzehiss5up6wgyqs46i73wvqz7qxuzujq"
 }
 variable "availability_domain"{
-    description="us-auburn-1.AD-1"
+    description="AD-1"
 }
 variable "shape"{
     description= "VM.Standard.E4.Flex"
