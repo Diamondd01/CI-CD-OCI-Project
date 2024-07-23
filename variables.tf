@@ -12,7 +12,7 @@ variable "compartment_id"{
     description="ocid1.compartment.oc1..aaaaaaaaigecoxnads2k7fooq2rqzehiss5up6wgyqs46i73wvqz7qxuzujq"
 }
 variable "availability_domain"{
-    description="US-ASHBURN-1.AD-1"
+    description="HhPD:US-ASHBURN-1.AD-1"
 }
 variable "shape"{
     description= "VM.Standard.E4.Flex"
