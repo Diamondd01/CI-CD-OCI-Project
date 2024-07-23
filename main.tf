@@ -14,6 +14,7 @@ resource "oci_core_virtual_network" "CI-CD-VCN"{
     availability_domain =var.availability_domain
     compartment_id = var.compartment_id
     shape = var.shape
+    display_name = "instance-CICD-Project1"
 
     metadata{
         ssh_authorized_keys= file(var.ssh_public_key_path)
