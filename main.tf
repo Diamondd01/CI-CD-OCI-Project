@@ -17,11 +17,10 @@ resource "oci_core_subnet" "cicd_vcn_subnet" {
     vcn_id = oci_core_vcn.ci_cd_vcn.id
 }
 # define a compute instance
-resource "oci_core_instance" "cicd_instance"{
+resource "oci_core_instance" "cicd_instance" {
     availability_domain ="HhPD:US-ASHBURN-1.AD-1"
     compartment_id = var.compartment_id
     shape = var.shape
-
     shape_config{
         memory_in_gbs = 13
         ocpus = 1
@@ -36,4 +35,4 @@ resource "oci_core_instance" "cicd_instance"{
         display_name="CICD_VCN_Subnet"
 
     }
- }
+}
